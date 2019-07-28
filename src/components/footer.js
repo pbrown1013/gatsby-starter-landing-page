@@ -22,13 +22,13 @@ const Footer = ({ siteTitle }) => (
     >
       <div style={{ color: COLORS.blue, fontWeight: 700 }}>
         <a
-          style={{ textDecoration: "none" }}
-          href="https://github.com/gillkyle/gatsby-starter-landing-page"
+          style={{ textDecoration: "none", color: COLORS.blue }}
+          href="https://github.com/pbrown1013/gatsby-starter-landing-page"
         >
           Contact Us
         </a>
       </div>
-      <div style={{ color: COLORS.gray }}>
+      <div style={{ color: COLORS.blue }}>
         © {new Date().getFullYear()}
         {` `}
         {siteTitle}

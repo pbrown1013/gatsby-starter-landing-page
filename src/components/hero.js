@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import Button from "../components/button"
 import headerImage from "../images/header.png"
 import MockupContent from "./image"
-import mockupFrame from "../images/mockup-frame.png"
+import mockupFrame from "../images/new-mockup-frame.png"
 
 const Header = ({ siteTitle }) => (
   <div
@@ -26,10 +26,11 @@ const Header = ({ siteTitle }) => (
         opacity: 0.5,
       }}
     />
-    <h1 style={{ textAlign: "center" }}>Landing Page Starter</h1>
+    <h1 style={{ textAlign: "center", fontFamily: "Helvetica" }}>
+      The New Parkhub Mobile Suite
+    </h1>
     <p style={{ textAlign: "center", maxWidth: 440 }}>
-      This landing page looks great on all devices and is minimal in design. Add
-      what you want and deploy.
+      All of your favorite features with new, easy to use tools & resources.
     </p>
     <Button>Get Early Access</Button>
     <div style={{ margin: 60, width: `250px`, position: "relative" }}>
